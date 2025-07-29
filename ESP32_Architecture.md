@@ -3,7 +3,7 @@
 
 
 <p align="center">
-    <img src="image.png" alt="ESP32 Architecture Block Diagram" width="1000"/>
+    <img src="image.png" alt="ESP32 Architecture Block Diagram" width="500"/>
 </p>
 
 **แผนภาพบล็อกสถาปัตยกรรม ESP32**  
