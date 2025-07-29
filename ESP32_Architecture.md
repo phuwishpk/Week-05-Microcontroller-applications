@@ -746,7 +746,7 @@ graph TD
 
 ```mermaid
 graph TD
-    subgraph DataStrategy["ESP32 Data Management Strategy<br><br><br>"]
+    subgraph DataStrategy["ESP32 Data Management"]
         Title["💾 Data Management Strategy<br/>กลยุทธ์การจัดการข้อมูล"]
         
         Static["🔒 Static Data<br/>ข้อมูลคงที่<br/>→ Flash Memory<br/>(Constants, Lookup Tables)"]
@@ -775,7 +775,7 @@ graph TD
 
 ```mermaid
 graph TD
-    subgraph PowerStrategy["ESP32 Power Optimization Strategy"]
+    subgraph PowerStrategy["ESP32 Power Optimization"]
         Title["⚡ Power Optimization Strategy<br/>กลยุทธ์การประหยัดพลังงาน"]
         
         Sleep["😴 Deep Sleep Modes<br/>โหมดนอนหลับลึก<br/>~10 µA<br/>(Battery Applications)"]
@@ -804,7 +804,7 @@ graph TD
 
 ```mermaid
 graph TD
-    subgraph BestPractices["ESP32 Development Best Practices"]
+    subgraph BestPractices["ESP32 Development"]
         Title["✨ Development Best Practices<br/>แนวทางปฏิบัติที่ดี"]
         
         Monitor["📊 Memory Monitoring<br/>การตรวจสอบหน่วยความจำ<br/>esp_get_free_heap_size()<br/>(Debug & Optimize)"]
