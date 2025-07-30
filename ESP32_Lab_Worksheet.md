@@ -351,8 +351,11 @@ idf.py qemu monitor
 # build
   docker exec -it esp32-lab5 bash -c "source /opt/esp/idf/export.sh && cd memory-test && idf.py build"
 
- # จำลองการทำงานด้วย
+# จำลองการทำงานด้วย
    docker exec -it esp32-lab5 bash -c "source /opt/esp/idf/export.sh && cd memory-test && idf.py qemu"
+
+# ออกจากจำลองการทำงานด้วย
+   Ctrl+z
 ```
 
 **🖥️ ผลลัพธ์ที่ควรเห็นใน QEMU:**
