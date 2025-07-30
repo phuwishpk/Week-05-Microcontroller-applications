@@ -345,7 +345,14 @@ idf.py qemu monitor
 # ดูผลลัพธ์ที่แสดง memory addresses
 ```
 
+หมายเหตุ ในกรณีอยู่นอก docker (ยังไม่ได้ exec เข้าไปใน docker) สามารถใช้คำสั่งนี้บน cmd terminal
 
+ 
+# build
+  docker exec -it esp32-lab5 bash -c "source /opt/esp/idf/export.sh && cd memory-test && idf.py build"
+
+ # จำลองการทำงานด้วย
+   docker exec -it esp32-lab5 bash -c "source /opt/esp/idf/export.sh && cd memory-test && idf.py qemu"
 
 
 **🖥️ ผลลัพธ์ที่ควรเห็นใน QEMU:**
