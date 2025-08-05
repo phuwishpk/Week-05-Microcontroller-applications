@@ -335,11 +335,11 @@ xtensa-esp32-elf-objdump -t build/memory_test.elf | grep -E "(sram_buffer|flash_
 
 ```bash
 # รันโปรแกรมใน QEMU emulator (ไม่ต้องใช้ hardware จริง)
-idf.py qemu monitor
+idf.py qemu 
 
 
 # หรือถ้าต้องการ build ใหม่ก่อนรัน
-# idf.py build qemu monitor
+# idf.py build qemu 
 
 # กด Ctrl+] เพื่อออกจาก monitor
 # ดูผลลัพธ์ที่แสดง memory addresses
