@@ -596,20 +596,20 @@ void app_main() {
 
 | Test Type | Memory Type | Time (μs) | Ratio vs Sequential |
 |-----------|-------------|-----------|-------------------|
-| Sequential | Internal SRAM | _______ | 1.00x |
-| Random | Internal SRAM | _______ | ____x |
-| Sequential | External Memory | _______ | ____x |
-| Random | External Memory | _______ | ____x |
+| Sequential | Internal SRAM | 10089 | 1.00x |
+| Random | Internal SRAM | 13599 | 1.35 |
+| Sequential | External Memory |49897 | 49897 |
+| Random | External Memory | 37140 | 3.68x |
 
 **Table 3.2: Stride Access Performance**
 
 | Stride Size | Time (μs) | Ratio vs Stride 1 |
 |-------------|-----------|------------------|
-| 1 | _______ | 1.00x |
-| 2 | _______ | ____x |
-| 4 | _______ | ____x |
-| 8 | _______ | ____x |
-| 16 | _______ | ____x |
+| 1 | 6350 | 1.00x |
+| 2 | 3373 | 0.53x |
+| 4 | 1631 | 0.26x |
+| 8 | 862 | 0.14x |
+| 16 | 1199 | 0.19x |
 
 ### คำถามวิเคราะห์
 
@@ -838,23 +838,25 @@ void app_main() {
 
 ### การบันทึกผลการทดลอง
 
+### การบันทึกผลการทดลอง
+
 **Table 4.1: Dual-Core Performance Summary**
 
 | Metric | Core 0 (PRO_CPU) | Core 1 (APP_CPU) |
 |--------|-------------------|-------------------|
-| Total Iterations | _______ | _______ |
-| Average Time per Iteration (μs) | _______ | _______ |
-| Total Execution Time (ms) | _______ | _______ |
-| Task Completion Rate | _______ | _______ |
+| Total Iterations | 81 | 101 |
+| Average Time per Iteration (μs) | 115 | 10176 |
+| Total Execution Time (ms) | 4997 | 4997 |
+| Task Completion Rate | 100% | 100% |
 
 **Table 4.2: Inter-Core Communication**
 
 | Metric | Value |
 |--------|-------|
-| Messages Sent | _______ |
-| Messages Received | _______ |
-| Average Latency (μs) | _______ |
-| Queue Overflow Count | _______ |
+| Messages Sent | 90 |
+| Messages Received | 9 |
+| Average Latency (μs) | 16957 |
+| Queue Overflow Count | 0 |
 
 ### คำถามวิเคราะห์
 
