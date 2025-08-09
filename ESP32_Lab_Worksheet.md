@@ -390,18 +390,18 @@ Memory analysis complete!
 
 | Memory Section | Variable/Function | Address (ที่แสดงออกมา) | Memory Type |
 |----------------|-------------------|----------------------|-------------|
-| Stack | stack_var | 0x_______ | SRAM |
-| Global SRAM | sram_buffer | 0x_______ | SRAM |
-| Flash | flash_string | 0x_______ | Flash |
-| Heap | heap_ptr | 0x_______ | SRAM |
+| Stack | stack_var | 0x3ffb4550 | SRAM |
+| Global SRAM | sram_buffer |  0x3ffb16ac | SRAM |
+| Flash | flash_string |  0x3f407b64 | Flash |
+| Heap | heap_ptr | 0x3ffb5264 | SRAM |
 
 **Table 2.2: Memory Usage Summary**
 
 | Memory Type | Free Size (bytes) | Total Size (bytes) |
 |-------------|-------------------|--------------------|
-| Internal SRAM | _________ | 520,192 |
-| Flash Memory | _________ | varies |
-| DMA Memory | _________ | varies |
+| Internal SRAM |  380096 byte | 520,192 |
+| Flash Memory |0 bytes | varies |
+| DMA Memory |  303096 bytes | varies |
 
 ### คำถามวิเคราะห์ (ง่าย)
 
