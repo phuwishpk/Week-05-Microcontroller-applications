@@ -838,8 +838,6 @@ void app_main() {
 
 ### การบันทึกผลการทดลอง
 
-### การบันทึกผลการทดลอง
-
 **Table 4.1: Dual-Core Performance Summary**
 
 | Metric | Core 0 (PRO_CPU) | Core 1 (APP_CPU) |
